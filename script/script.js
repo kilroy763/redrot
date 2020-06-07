@@ -14,12 +14,3 @@ $(window).on("load",function() {
       });
     }).scroll(); //invoke scroll-handler on page-load
   });
-
-$(function(){
-    $('.slider').slick({
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-});
-  
