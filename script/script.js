@@ -15,10 +15,21 @@ $(window).on("load",function() {
     }).scroll(); //invoke scroll-handler on page-load
   });
 
+
+  $('body').css({
+    overflow: 'hidden'
+  });
+
+
+
+
   $(window).on("load",function(){
     setTimeout(function(){
-        $(".loader-wrapper").fadeOut("slow")
+        $(".loader-wrapper").fadeOut("slow", function(){
+          $('body').css({
+            overflow: 'auto'
+          });
+        });
     },1000)
   ;
 });
-
