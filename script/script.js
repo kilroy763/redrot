@@ -14,3 +14,11 @@ $(window).on("load",function() {
       });
     }).scroll(); //invoke scroll-handler on page-load
   });
+
+  $(window).on("load",function(){
+    setTimeout(function(){
+        $(".loader-wrapper").fadeOut("slow")
+    },1000)
+  ;
+});
+

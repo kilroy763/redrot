@@ -31,7 +31,9 @@
         </div>
       </div>
 
-
+      <div class="loader-wrapper">
+    <img src="img/logo.png" alt="">
+    </div>
 
 
 
@@ -39,8 +41,8 @@
    
       
     
-      <div data-aos="fade-right"><h1>OVER ONS</h1></div>
-      <div data-aos="fade-right"> <h3>Wij begrijpen u en werken aan uw auto alsof het onze eigen auto betreft.
+      <div data-aos="fade-up"><h1>OVER ONS</h1></div>
+      <div data-aos="fade-up"> <h3>Wij begrijpen u en werken aan uw auto alsof het onze eigen auto betreft.
     </h3></div>
 
     <div class="container">
@@ -84,46 +86,54 @@
         </div>
     </section>
 
+
+    <h1 data-aos="fade-up">CONTACT ONS</h1>
     <div class="container">
-<div class="row" >
-    <div class="col-sm-6">
+<div class="row"  data-aos="fade-right">
+    <div class="col-sm-6" id="gegevens">
         <h2>Gegevens</h2>
      <h3> Mail ons</h3> 
-       <h4>info@redrotgarage.nl</h4>
+       <p>info@redrotgarage.nl</p>
         
         <h3>   Bel ons </h3> 
-       <h4> 06 129 707 41</h4>
+       <p> 06 129 707 41</p>
         
         <h3>    De werkplaats</h3> 
-        <h4> Hermesweg 5B
-        3741 GP Baarn</h4>
+        <p> Hermesweg 5B
+        3741 GP Baarn</p>
         
         <h3>    KVK Nummer</h3> 
-        <h4> 68472706</h4>
+        <p> 68472706</p>
         
         <h3>    Bank</h3> 
-        <h4> NL 73 INGB 0654 5378 28</h4>
+        <p> NL 73 INGB 0654 5378 28</p>
         
     </div>
 
 
-    <form action="/action_page.php" class="col-sm-6"> 
+    <form action="/action_page.php" class="col-sm-6" data-aos="fade-left"> 
+        <h2>Bericht ons</h2>
         <div class="form-group">
-          <label for="email">Email address:</label>
-          <input type="email" class="form-control" id="email">
+          <label for="name">Naam:</label>
+          <input type="name" class="form-control" id="name">
         </div>
         <div class="form-group">
-          <label for="pwd">Password:</label>
-          <input type="password" class="form-control" id="pwd">
-        </div>
-        <div class="checkbox">
-          <label><input type="checkbox"> Remember me</label>
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="text">Bericht:</label>
+            <input type="text" class="form-control" id="text">
+          </div>
+        <button type="submit" class="btn btn-outline-light">Verstuur</button>
       </form>
     </div>
 </div>
 </main>
+
+<footer data-aos="fade-up">
+    <img src="img/logo.png" alt="" class="logo2">
+</footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="script/script.js"></script>

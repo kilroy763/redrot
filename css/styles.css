@@ -50,6 +50,20 @@ padding-top: 2%;
     z-index: 100;
   }
 
+  .logo2{
+    position: relative;
+    width: 15%;
+     left: 50%;
+     margin-left: -108px !important;  /* 50% of your logo width */
+     display: block;
+   
+  }
+
+
+  footer{
+
+    background-color: #181818;
+  }
   .donker{
     position:fixed;
     z-index: 20;
@@ -97,6 +111,14 @@ padding-top: 2%;
     
     
   }
+
+  #gegevens h3{
+      text-align: left;
+  }
+
+  .row {
+      margin-top: 6vh;
+  }
   .slider  {
     margin-right: 2vw;
    width: 100vw;
@@ -128,3 +150,27 @@ padding-top: 2%;
 }
     
     
+
+
+
+
+  .loader-wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #181818;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 150;
+    overflow-y: hidden;
+overflow-x: hidden; 
+animation-delay: 5.0s;
+  }
+
+  .loader-wrapper img{
+      width: 20%;
+  }
+  
