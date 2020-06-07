@@ -51,11 +51,9 @@ padding-top: 2%;
   }
 
   .logo2{
-    position: relative;
+
     width: 15%;
-     left: 50%;
-     margin-left: -108px !important;  /* 50% of your logo width */
-     display: block;
+  
    
   }
 
@@ -63,6 +61,7 @@ padding-top: 2%;
   footer{
 
     background-color: #181818;
+    margin-top: 20%;
   }
   .donker{
     position:fixed;
@@ -132,6 +131,14 @@ padding-top: 2%;
     object-fit: cover;
   }
 
+  form{
+    margin-top: 20%;
+}
+    
+.contact {
+    margin-top: 30%;
+}
+
 
   @media screen and (min-width: 600px) {
     .slider  {
@@ -145,11 +152,18 @@ padding-top: 2%;
         height: 600px; /* height of container */
         object-fit: cover;
       }
+      .contact {
+        margin-top: 0;
+    }
+    form{
+        margin-top: 0;
+    }
+    
 
 
 }
     
-    
+
 
 
 
